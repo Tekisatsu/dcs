@@ -81,7 +81,6 @@ public class t33 {
                 }
                 else if (response.startsWith(AgreeProto.A_PENDING)) {
                     System.out.println("Decision pending: " + response);
-                    Thread.sleep(5000);
                 } else
                     System.out.println("Failed to get decision: " + response);
             }
